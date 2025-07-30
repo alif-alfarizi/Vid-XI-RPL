@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FullFeaturedCounter</string>
+    <string name="counter_up">COUNTER UP</string>
+    <string name="counter_down">COUNTER DOWN</string>
+    <string name="counter_initial">0</string>
+</resources>
