@@ -1,0 +1,70 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Kal'el/.gradle/wrapper/dists/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:compileDebugKotlin
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:178:41 'val Icons.Filled.List: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.List.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:419:34 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:777:64 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:799:64 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:821:64 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:843:64 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:1005:39 'val Icons.Filled.List: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.List.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:1363:38 'val Icons.Filled.ExitToApp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ExitToApp.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/AdminActivity.kt:1432:31 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/KurikulumActivity.kt:1264:38 'val Icons.Filled.ExitToApp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ExitToApp.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/KurikulumActivity.kt:1356:31 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/KurikulumActivity.kt:1515:45 'val Icons.Filled.List: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.List.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/KurikulumActivity.kt:1793:13 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/KurikulumActivity.kt:2018:35 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/SiswaActivity.kt:1577:38 'val Icons.Filled.ExitToApp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ExitToApp.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/SiswaActivity.kt:1646:31 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/ui/theme/Theme.kt:64:20 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///C:/xampp/htdocs/KELAS-XI/LATIHAN%20ANDROID%20STUDIO/Monitor/AplikasiMonitoringKelas3/app/src/main/java/com/example/aplikasimonitoringkelas3/ui/theme/Theme.kt:65:20 'var navigationBarColor: Int' is deprecated. Deprecated in Java.
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 2m 15s
+34 actionable tasks: 5 executed, 29 up-to-date

@@ -1,0 +1,50 @@
+INSTRUKSI MENGGANTI ICON DENGAN LOGO SEKOLAH
+==============================================
+
+Setelah Anda menambahkan file logo_sekolah.png ke folder drawable,
+ubah kode di MainActivity.kt sebagai berikut:
+
+LANGKAH 1: Tambahkan import painterResource
+-------------------------------------------
+Cari baris:
+    import androidx.compose.ui.text.input.KeyboardType
+
+Tambahkan DI BAWAHNYA:
+    import androidx.compose.ui.res.painterResource
+
+
+LANGKAH 2: Ganti Icon dengan Image
+-----------------------------------
+Cari kode:
+        // Logo Sekolah (Sementara menggunakan icon, ganti dengan Image setelah logo ditambahkan)
+        Icon(
+            imageVector = Icons.Filled.AccountCircle,
+            contentDescription = "Logo SMKN 2 Buduran Sidoarjo",
+            modifier = Modifier
+                .size(150.dp)
+                .padding(bottom = 24.dp),
+            tint = MaterialTheme.colorScheme.primary
+        )
+
+Ganti dengan:
+        // Logo Sekolah
+        Image(
+            painter = painterResource(id = R.drawable.logo_sekolah),
+            contentDescription = "Logo SMKN 2 Buduran Sidoarjo",
+            modifier = Modifier
+                .size(150.dp)
+                .padding(bottom = 24.dp)
+        )
+
+
+LANGKAH 3: Sync dan Build
+--------------------------
+1. Klik "Sync Now" di Android Studio (jika muncul notifikasi)
+2. Clean Project: Build → Clean Project
+3. Rebuild Project: Build → Rebuild Project
+4. Run aplikasi
+
+==============================================
+Lokasi file logo: 
+C:\Kelas XI\PelatihanAndroid\AplikasiMonitoringKelas3\app\src\main\res\drawable\logo_sekolah.png
+==============================================
